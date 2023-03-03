@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Population percentage</title>
+</head>
+
+<body>
+  <header>
+    <!-- <img src="./assests/img/Logo_ArintiaGroup_03032020-1536x685.png" alt=""> -->
+    <span>Check here the population according to your area</span>
+  </header>
+
+  <main>
+
+
+    <form action="" id="formulario">
+      <h3>Population form</h3>
+
+      <article>
+        <label for="">Number of people in the area::</label>
+        <input id="input1" type="text" placeholder="Insert only numbers">
+        <label for="">Area:</label>
+        <select name="selector" id="selector1">
+          <option value="Logistics">Logistics</option>
+          <option value="Cleanliness">Cleanliness</option>
+          <option value="Administrative">Administrative</option>
+          <option value="Computing">Computing</option>
+        </select>
+      </article>
+
+      <article>
+        <label for="">Number of people in the area:</label>
+        <input id="input2" type="text" placeholder="Insert only numbers">
+        <label for="">Area:</label>
+        <select name="selector2" id="selector2">
+          <option value="Logistic">Logistic</option>
+          <option value="Cleanliness">Cleanliness</option>
+          <option value="Administrative">Administrative</option>
+          <option value="Computing">Computing</option>
+        </select>
+      </article>
+
+      <article>
+        <label for="">Number of people in the area:</label>
+        <input id="input3" type="text" placeholder="Insert only numbers">
+        <label for="">Area:</label>
+        <select name="selector3" id="selector3">
+          <option value="Logistic">Logistic</option>
+          <option value="Cleanliness">Cleanliness</option>
+          <option value="Administrative">Administrative</option>
+          <option value="Computing">Computing</option>
+        </select>
+      </article>
+
+
+      <div id="buttonContainer">
+        <input type="submit" id="boton" value="Send">
+      </div>
+
+    </form>
+
+    <section>
+      <div class="consulta">
+        <h3>Query data</h3>
+        <article>
+          Area Name: <h4 id="nArea1"></h4>
+          Percentage:<p id="resultado1"></p>
+        </article>
+  
+        <article>
+          Area Name: <h4 id="nArea2"></h4>
+          Percentage:<p id="resultado2"></p>
+        </article>
+  
+        <article>
+          Area Name: <h4 id="nArea3"></h4>
+          Percentage:<p id="resultado3"></p>
+        </article>
+      </div>
+
+
+    </section>
+
+    <aside>
+      <div id="aside_Container">
+        <h1>Total population</h1>
+        <p id="totalArinta"></p>
+        <button id="totalArintia">Press here</button>
+      </div>
+    </aside>
+
+  </main>
+
+
+  <footer>
+    <div id="footer_Container">
+      <h3>Created by </h3>
+      <h2 id="h2_footer">JonaScript</h2>
+    </div>
+  </footer>
+
+  <div id="app"></div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
